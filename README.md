@@ -1,4 +1,4 @@
-# JADE — Justice Algorithmique des Décisions Électorales
+# JADE — Justice Algorithmique des Élections
 
 **Analyse des décisions électorales du Conseil constitutionnel | Python • PostgreSQL • ETL • NLP • Streamlit**
 
