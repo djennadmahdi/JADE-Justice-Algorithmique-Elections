@@ -106,13 +106,13 @@ Le tableau de bord JADE propose :
 
 Mes principales contributions au projet ont porté sur :
 
-- Le développement de scripts Python d'extraction et de traitement des données.
-- La conception de parsers pour les données juridiques.
-- La normalisation des références et des textes avec les expressions régulières.
-- La correction de problèmes d'encodage.
-- Le développement de tests unitaires avec pytest.
-- La participation aux analyses statistiques et aux travaux de Data Science.
-- La rédaction des livrables techniques et scientifiques.
+- Développement de scripts Python d'extraction et de traitement des données.
+- Conception de parsers pour les données juridiques (Regex, JSON, Excel).
+- Normalisation des références et correction des problèmes d'encodage.
+- Développement de tests unitaires avec pytest.
+- Participation à l'intégration du pipeline ETL PostgreSQL conçu en binôme.
+- Participation en binôme au développement et à l'évaluation du modèle de classification NLP (TF-IDF + régression logistique), avec une exactitude (accuracy) de 90,5 % sur le jeu de test.
+- Rédaction des livrables techniques et scientifiques.
 
 Ces travaux m'ont permis de renforcer mes compétences en programmation Python, traitement de données textuelles, qualité des données et développement de pipelines ETL.
 
@@ -120,7 +120,7 @@ Ces travaux m'ont permis de renforcer mes compétences en programmation Python, 
 
 Le projet a permis de mettre en place une chaîne de traitement pour un corpus de plus de **25 000 abstracts juridiques**.
 
-Une expérimentation de classification textuelle utilisant TF-IDF et la régression logistique a également été menée, avec une précision rapportée de **90,5 % sur les données de test**.
+Une expérimentation de classification textuelle utilisant TF-IDF et la régression logistique a été réalisée en binôme, avec une exactitude (accuracy) de 90,5 % sur le jeu de test.
 
 Le tableau de bord permet notamment de visualiser les tendances temporelles et les relations statistiques entre les griefs invoqués et les solutions rendues.
 
@@ -172,6 +172,10 @@ Les tests unitaires présents dans `tests/` illustrent la démarche de validatio
 **Mahdi Djennad** — Développement Python, parsing, normalisation et tests.
 
 **Milhane Rabehi** — Architecture PostgreSQL, pipeline ETL et qualité des données.
+
+Travaux réalisés conjointement : intégration du pipeline ETL et développement et évaluation du modèle de classification NLP (TF-IDF + régression logistique).
+
+Le tableau de bord Streamlit a été développé par Milhane Rabehi.
 
 **Cadre :** Travail d'Étude et de Recherche (TER), Université Grenoble Alpes, 2026.
 
